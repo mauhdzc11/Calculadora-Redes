@@ -50,7 +50,15 @@ int main()
         printf("La suma es: %d + %d = %d",x,y, suma(x,y) );
       }
     break;
-
+    case 2: //RESTA
+      {
+        printf("Ingrese el primer entero");
+        scanf("%d",&x);
+        printf("Ingrese el segundo entero");
+        scanf("%d",&y);
+        printf("La resta: %d - %d = %d",x,y,resta(x,y));
+      }
+      break;
     case 4:
         {
         printf("Ingrese el dividendo");
