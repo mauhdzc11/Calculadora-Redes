@@ -51,6 +51,17 @@ int main()
       }
     break;
 
+    case 4:
+        {
+        printf("Ingrese el dividendo");
+        scanf("%d",&x);
+        printf("Ingrese el divisor");
+        scanf("%d",&y);
+        printf("La divisi%cn: %d / %d = %f",162,x,y,division(x,y));
+      }
+      break;
+
+
     
   }
 }
