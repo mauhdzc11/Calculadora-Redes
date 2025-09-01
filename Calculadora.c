@@ -59,6 +59,16 @@ int main()
         printf("La resta: %d - %d = %d",x,y,resta(x,y));
       }
       break;
+    case 3:
+      {
+        printf("Ingrese el primer factor");
+        scanf("%d",&x);
+        printf("Ingrese el segundo factor");
+        scanf("%d",&y);
+        printf("La multiplicaci%cn: %d x %d = %d",162,x,y,multiplicacion(x,y));
+      }
+    break;
+    
     case 4:
         {
         printf("Ingrese el dividendo");
